@@ -114,7 +114,7 @@ max_step_row
 ```
 The 5-minute interval that contains the maximum number of steps is 835 and the number of steps contained in that interval is 206, rounded to the nearest integer.  
 
-##Inputing Missing Values  
+##Imputing Missing Values  
 ####1. Calculate and report the total number of missing values in the dataset
 
 ```r

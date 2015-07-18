@@ -56,7 +56,7 @@ max_step_row
 ```  
 The 5-minute interval that contains the maximum number of steps is `r max_step_row$interval` and the number of steps contained in that interval is `r round(max_step_row$mean_steps)`, rounded to the nearest integer.  
 
-##Inputing Missing Values  
+##Imputing Missing Values  
 ####1. Calculate and report the total number of missing values in the dataset
 ```{r missing, echo=TRUE}
 missing <- filter(x,is.na(steps))
